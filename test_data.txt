@@ -1,0 +1,6 @@
+40;Cambridge_FaceDB/s40/10.pgm
+5;Cambridge_FaceDB/s5/4.pgm
+10;Cambridge_FaceDB/s10/6.pgm
+7;Cambridge_FaceDB/s7/9.pgm
+1;Cambridge_FaceDB/s1/8.pgm
+35;Cambridge_FaceDB/s35/6.pgm
