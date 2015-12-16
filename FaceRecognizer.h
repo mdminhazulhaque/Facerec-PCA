@@ -6,6 +6,8 @@
 #include <float.h>
 #include <opencv/cv.h>
 
+#include "PCA_Custom.h"
+
 using namespace std;
 using namespace cv;
 
@@ -30,7 +32,7 @@ public:
 
 private:
     /* major source of algorithm comes from OpenCV lib */
-    PCA *pca;
+    PCA_Custom *pca;
     /* DB of faces from training data */
     vector<Mat> projTrFaces;
     /* Index of each traning faces */

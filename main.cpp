@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include <getopt.h>
+
 /* Self-implemented Lib */
 #include "FaceRecognizer.h"
 
@@ -73,8 +74,8 @@ int main ()
     vector<string> trainFaceFiles;
     vector<int> trainImageIDToSubjectIDMap;
 
-    string trainingList = "../Face/train_data.txt";
-    string testList = "../Face/test_data.txt";
+    string trainingList = "train_data.txt";
+    string testList = "test_data.txt";
 
     bool doShow = false;
 

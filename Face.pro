@@ -1,9 +1,11 @@
 QT += core gui widgets
 HEADERS += \
-    FaceRecognizer.h
+    FaceRecognizer.h \
+    PCA_Custom.h
 SOURCES += \
     main.cpp \
-    FaceRecognizer.cpp
+    FaceRecognizer.cpp \
+    PCA_Custom.cpp
 CONFIG += c++11
 OTHER_FILES += \
     test_data.txt \

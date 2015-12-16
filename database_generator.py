@@ -1,10 +1,11 @@
 import random
 
-db_dir='/media/data/dev/qt/+build/Cambridge_FaceDB/'
 sep = "/"
 
-#db_dir='C:\\Cambridge_FaceDB\\'
-#sep = "\\"
+# For Windows
+sep = "\\"
+
+db_dir='Cambridge_FaceDB' + sep
 
 train = open("train_data.txt", "w")
 test = open("test_data.txt", "w")

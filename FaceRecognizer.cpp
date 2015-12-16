@@ -8,7 +8,7 @@ FaceRecognizer::FaceRecognizer(const Mat& trFaces, const vector<int>& trImageIDT
 void FaceRecognizer::init(const Mat& trFaces, const vector<int>& trImageIDToSubjectIDMap, int components)
 {
     int numSamples = trFaces.cols;
-    this->pca = new PCA(trFaces, Mat(),CV_PCA_DATA_AS_COL, components);
+    this->pca = new PCA_Custom(trFaces, Mat(),CV_PCA_DATA_AS_COL, components);
 
     for(int sampleIdx = 0; sampleIdx < numSamples; sampleIdx++) {
         this->projTrFaces.push_back(pca->project(trFaces.col(sampleIdx)));
